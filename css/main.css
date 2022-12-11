@@ -4,24 +4,24 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color: #040404;
+  background-color: #1f1f1f;
   padding: 5%;
   justify-content: center;
 }
 .thanks-container h1 {
-  color: #7C83FD;
+  color: #e6414f;
 }
 .thanks-container h3 {
   color: white;
 }
 
 #img {
-  width: 25vw;
+  width: 40vw;
   animation: sello 2s;
 }
 @media screen and (max-width: 480px) {
   #img {
-    width: 50vw;
+    width: 75vw;
     margin-bottom: 5vh;
   }
 }
@@ -31,7 +31,7 @@
     width: 200vw;
   }
   100% {
-    width: 25vw;
+    width: 40vw;
   }
 }
 * {
@@ -45,4 +45,8 @@
   color: white;
   font-size: 2rem;
   z-index: 99;
+}
+
+body {
+  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */

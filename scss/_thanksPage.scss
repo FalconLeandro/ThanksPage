@@ -3,12 +3,12 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color: #040404;
+  background-color: #1f1f1f;
   padding: 5%;
   justify-content: center;
   
   h1{
-    color:#7C83FD;
+    color:#e6414f;
     
   }
   h3{
@@ -16,15 +16,16 @@
   }
 }
 #img{
-  width: 25vw;
+  width: 40vw;
   animation: sello 2s;
   @media screen and (max-width: 480px) {
-    width: 50vw;
+    width: 75vw;
     margin-bottom: 5vh;
+    
   }
 }
 
 @keyframes sello{
   0%{width: 200vw}
-  100%{width: 25vw}
+  100%{width: 40vw}
 }

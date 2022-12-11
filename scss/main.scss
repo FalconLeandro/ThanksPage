@@ -2,6 +2,7 @@
 @import "thanksPage";
 
 * {
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -12,4 +13,7 @@
     font-size: 2rem;
     z-index: 99;
   }
+}
+body{
+  overflow: hidden;
 }
