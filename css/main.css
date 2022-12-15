@@ -5,7 +5,7 @@
   align-items: center;
   height: 100vh;
   background-color: #1f1f1f;
-  padding: 5%;
+  padding: 20%;
   justify-content: center;
 }
 .thanks-container h1 {
@@ -17,7 +17,7 @@
 
 #img {
   width: 40vw;
-  animation: sello 2s;
+  animation: sello 2s ease-in-out;
 }
 @media screen and (max-width: 480px) {
   #img {
@@ -43,7 +43,7 @@
 * h3 {
   text-transform: uppercase;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   z-index: 99;
 }
 
